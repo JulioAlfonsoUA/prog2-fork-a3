@@ -26,6 +26,6 @@ class Curso:
     
     @staticmethod
 
-    def es_curso_abierto() -> str:
+    def es_curso_abierto(nombre) -> str:
 
-        return 'El curso esta abierto para el publico.'
+        return f'El curso {nombre} esta abierto para el publico.'
